@@ -1,5 +1,5 @@
 #Le but de ce programme est de generer des données aleatoires de plusieurs types de capteurs et les enregistrer dans un premier monment dans un format CSV et l'afficher dans le terminal
-
+python
 # Enregistrer le fichier est importat pour pouvoir faire des ameliorions continues dans le code (CI)
 
 # Caracteristisques initiales du robot
@@ -11,7 +11,7 @@ import csv
 from os import write
 import random
 import time
-from datatime import datatime
+from datetime import datetime
 
 # étape 2 - Définition d'un fichier CSV pour lenregistrer les données
 
@@ -20,26 +20,26 @@ analyse_data = "donees.csv"
 
 #étape 3 - Nommer les variables à prendre la mesure
 
-sortie = ["heure", "batterie(%), "temperature(degrees)", "position_X", "position_Y"]
+sortie = ["heure", "batterie(%)", "temperature(degrees)", "position_X", "position_Y"]
 
 
 #etape 4 - Création d'un fichier CSV
-  with open(donees.csv, mode="w") as fichier_csv:
+with open(analyse_data, mode="w", newline="") as fichier_sortie:
   writer = csv.writer(fichier_csv)
   write.writerow(sortie)
 
 #etape 5 - Définir les valeurs aléatoires
 
 def gen_donees():
-  ""
-  Simulation des données
-  ""
+  
+ # Simulation des données
+ 
 
-heure= datatime.now().strftime("%H:%M:%S %d/%m/%Y")
-betterie= random.randint(12.100)
-temperature= round(random.uniform(30.0, 60.0), 1)
-position_X= round(random.uniform(0.0, 60.0), 1)
-position_Y= round(random.uniform(0.0, 60.0), 1)
+heure = datatime.now().strftime("%H:%M:%S %d/%m/%Y")
+betterie = random.randint(12.100)
+temperature = round(random.uniform(30.0, 60.0), 1)
+position_X = round(random.uniform(0.0, 60.0), 1)
+position_Y = round(random.uniform(0.0, 60.0), 1)
 
 return [heure, batterie, temperature, position_X, position_Y]
 
@@ -52,7 +52,7 @@ for _ in range(10):
 
 #etape 7 - Enregistrer les données dans le fichier CSV
 
-with open(analyse_data, mode="a", newline="") as fichier_csv:
+with open(analyse_data, mode="a", newline="") as fichier_sortie:
 
   writer = csv.writer(fichier_csv)
   writer.writerow(donees)
