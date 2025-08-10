@@ -60,8 +60,7 @@ for _ in range(10):
     print("log: ", donnees)
 
     #Etape 9 - Attendre 5 secondes avant de prendre la prochaine mesure
-    time.sleep(1)
+    time.sleep(5)
 
     #Etape 10 - Tester conflit de version
     print("Version 2.1.1 and 2.1.2")
-    
