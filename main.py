@@ -1,3 +1,5 @@
+#Version 1.1 - tester le GitHub
+
 #Le but de ce programme est de generer des données aleatoires de plusieurs types de capteurs et les enregistrer dans un premier monment dans un format CSV et l'afficher dans le terminal
 # Enregistrer le fichier est importat pour pouvoir faire des ameliorions continues dans le code (CI)
 
