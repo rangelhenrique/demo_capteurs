@@ -1,4 +1,4 @@
-#Version 1.1 - tester le GitHub
+#Version 2.1.1 - tester le GitHub
 
 #Le but de ce programme est de generer des données aleatoires de plusieurs types de capteurs et les enregistrer dans un premier monment dans un format CSV et l'afficher dans le terminal
 # Enregistrer le fichier est importat pour pouvoir faire des ameliorions continues dans le code (CI)
@@ -61,3 +61,6 @@ for _ in range(10):
 
     #Etape 9 - Attendre 5 secondes avant de prendre la prochaine mesure
     time.sleep(1)
+
+    #Etape 10 - Tester conflit de version
+    print("Version 2.1.1")
