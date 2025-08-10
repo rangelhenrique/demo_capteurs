@@ -1,4 +1,7 @@
-#Version 1.1 - tester le GitHub
+#Version Beta 1.0 
+#Date : 2023-11-10
+#Auteur : Henrique Rangel
+#Description : L'objetif de cette version c'est de créer une branche pour une evolution du code pour un client, ou tester une nouvelle fonctionnalité sans arreter le developpement de la version principale
 
 #Le but de ce programme est de generer des données aleatoires de plusieurs types de capteurs et les enregistrer dans un premier monment dans un format CSV et l'afficher dans le terminal
 # Enregistrer le fichier est importat pour pouvoir faire des ameliorions continues dans le code (CI)
