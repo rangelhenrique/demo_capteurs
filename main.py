@@ -62,10 +62,6 @@ for _ in range(10):
     #Etape 9 - Attendre 5 secondes avant de prendre la prochaine mesure
     time.sleep(1)
 
-<<<<<<< HEAD
     #Etape 10 - Tester conflit de version
-    print("Version 2.1.1")
-=======
-    #Etape 10 - Difference entre la branche avant de merger
-    print("Version 2.1.2")
->>>>>>> version_2.1.2
+    print("Version 2.1.1 and 2.1.2")
+    
