@@ -1,5 +1,4 @@
 #Le but de ce programme est de generer des données aleatoires de plusieurs types de capteurs et les enregistrer dans un premier monment dans un format CSV et l'afficher dans le terminal
-python
 # Enregistrer le fichier est importat pour pouvoir faire des ameliorions continues dans le code (CI)
 
 # Caracteristisques initiales du robot
@@ -15,7 +14,7 @@ from datetime import datetime
 
 # étape 2 - Définition d'un fichier CSV pour lenregistrer les données
 
-analyse_data = "donees.csv"
+analyse_data = "donnees.csv"
 
 
 #étape 3 - Nommer les variables à prendre la mesure
